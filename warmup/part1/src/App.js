@@ -3,6 +3,12 @@ import React, { useState } from 'react'
 
 
 
+const Button = ({ onClick, text }) => (
+  <button onClick={onClick}>
+    {text}
+  </button>
+)
+
 
 const Footer = () => {
   return (
@@ -11,6 +17,8 @@ const Footer = () => {
     </div>
   )
 }
+
+
 const App = () => {
   const [left, setLeft] = useState(0)
   const [right, setRight] = useState(0)
@@ -30,4 +38,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App

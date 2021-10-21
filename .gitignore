@@ -8,14 +8,20 @@
 **/**/node_modules
 **/node_modules
 **/**/.env
+**/**/**/.env
 **/.env
 *.env
-/part3/.env
+.vscode
 
-/part1/courseinfo/node_modules
-/part1/unicafe/node_modules
-/part1/anecdotes/node_modules
-/part2/**/node_modules
+
+open2021/**/**/node_modules
+open2021/**/node_modules
+open/node_modules
+open2021/**/**/.env
+open2021/**/.env
+open2021/*.env
+*.env
+
 
 
 # testing

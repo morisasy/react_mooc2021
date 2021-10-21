@@ -61,3 +61,6 @@ yarn-error.log*
 # removing git from the project.
 rm -rf .git
 .env
+
+
+rm -rf node_modules/ && npm i
